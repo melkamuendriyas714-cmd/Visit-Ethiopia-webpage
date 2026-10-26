@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.maincontainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1erm;
+    padding: 0.3rem;
+    background-color: rgb(17, 15, 15);
+}
+.maincontainer .textlogocontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.maincontainer .textlogocontainer .textcontainer h1{
+    font-size: 1.8rem;
+    color: rgba(171, 168, 6, 0.941);
+}
+.maincontainer .textlogocontainer .logocontainer img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.maincontainer .navigationcontainer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.maincontainer .navigationcontainer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.maincontainer .navigationcontainer ul li a{
+    text-decoration: none;
+    color: rgb(14, 183, 225);
+    transition: color,background-color,font-weight 0.3s ease;
+    &:hover {
+        color: black;
+        font-weight: bold;
+        background-color: aliceblue;
+        padding: 5px;
+        border-radius: 1rem;
+        opacity: 0.5;
+    }
+}
+
+.visitcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #151a1f;
+
+}
+.visitcontainer .Visitcontentccontainer{
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.visitcontainer .Visitcontentccontainer h1{
+    color: white;
+    padding: 1rem;
+}
+.visitcontainer .visitboxcontainer{
+    background-color: rgb(34, 42, 50);;
+    padding: 1.3rem;
+    border-radius: 1rem;
+    transition: border 0.5s ease;
+    transition: box-shadow 0.5s ease-in-out;
+    &:hover {
+        border: 1.5px solid rgb(169, 145, 12);
+        box-shadow: 2px 4px 5px rgba(122, 121, 121, 0.941);
+    }
+}
+.visitcontainer .visitboxcontainer .visitimagecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.visitcontainer .visitboxcontainer .visitimagecontainer img{
+    
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+}
+.visitcontainer .visitboxcontainer .visitheadercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.visitcontainer .visitboxcontainer .visitheadercontainer h2{
+    color: white;
+}
+.visitcontainer .visitboxcontainer .visitparagraphcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.visitcontainer .visitboxcontainer .visitparagraphcontainer p{
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: white;
+    padding: 1rem;
+}
+.visitcontainer .visitboxcontainer .readmorecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.visitcontainer .visitboxcontainer .readmorecontainer button{
+    padding: 1rem;
+    border-radius: 2.5rem;
+    border: 2px solid black;
+    font-weight: bold;
+    color: #e2a84b;
+    background-color: rgba(226, 168, 75, 0.14);
+    
+}
+
+
+.popularcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #151a1f;
+    
+}
+.popularcontainer .packegecontainer{
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.popularcontainer .packegecontainer h1{
+    color: white;
+    padding: 1rem;
+}
+.popularcontainer .popularboxcontainer{
+  background-color:#222a32;
+    padding: 1.3rem;
+    border-radius: 1rem;
+    transition: border 0.5s ease;
+    transition: box-shadow 0.5s ease-in-out;
+    &:hover {
+        border: 1.5px solid rgb(169, 145, 12);
+        box-shadow: 2px 4px 5px rgba(122, 121, 121, 0.941);
+    }
+}
+
+.popularcontainer .popularboxcontainer .popularimagecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popularcontainer .popularboxcontainer .popularimagecontainer img{
+    width: 15rem;
+    height: 14rem;
+   
+    border-radius: 2rem;
+}
+.popularcontainer .popularboxcontainer .popularheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.popularcontainer .popularboxcontainer .popularheader h3{
+    color: #e2a84b;
+    font-size: 1.5rem;
+}
+.popularcontainer .popularboxcontainer .popularparagraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popularcontainer .popularboxcontainer .popularparagraph p{
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: white;
+    padding: 1rem;
+}
+
+.formcontainer{
+    display: grid;
+    grid-template-columns: auto ;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #151a1f;
+}
+
+.formcontainer .contactcontainer{
+    display: flex;
+    grid-column: 1/2;
+    justify-content: center;
+    align-items: center;
+    
+}
+.formcontainer .contactcontainer h1{
+    color: white;
+    padding: 6rem 2rem 2rem 2rem;
+    font-size: 3rem;
+}
+
+.firstformrowcontainew, .secondformrowcontainew, .textareacontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0.5rem;
+}
+.formcontainer .firstformrowcontainew .namecontainer{
+
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea
+{
+    padding: 1.5rem ;
+    border-radius: 0.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    width: 16rem;
+    background-color: #222a32;
+    border: 0.3px solid white;
+}
+textarea{
+    width: 30rem;
+}
+.submitbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="submit"]{
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 2rem;
+    width: 15rem;
+    height: 4rem;
+    background-color: rgb(226, 168, 75);;
+    color: #171a1d;
+    border: none;
+}
+input[type="submit"]:hover{
+    background-color: #f0bd68;
+    color: #171a1d;
+}
+
+
+.footercontainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+    padding: 4rem;
+    background-color: #101418;;
+}
+
+.footercontainer .contentheadercontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    gap: 2rem;
+
+}
+.footercontainer .contentheadercontainer h3{
+    color:#e2a84b;
+}
+.footercontainer .contentheadercontainer p{
+    color: white;
+}
