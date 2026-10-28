@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #202633;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.allcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #303949;
+    border-radius: 1rem;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 5px 12px rgba(12, 11, 11, 0.957);
+
+}
+.allcontainer .student h1{
+    color: #2457c5;
+    background-color: #303949;
+    font-size: 2.5rem;
+}
+.allcontainer .entercontainer p{
+    background-color: #303949;
+    color: white;
+    font-size: 1rem;
+}
+.allcontainer.inputcontainer{
+    background-color: #303949;
+}
+ 
+input[type="text"]{
+    padding: 1.5rem 7rem 1.5rem 7rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 16px;
+    background-color: #6662626b;
+    color: white;
+    border: 1px solid #aaa;
+   
+}
+.allcontainer .bttuncontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #303949;
+}
+.allcontainer .bttuncontainer button{
+    
+    
+    color: white;
+    font-weight: 600;
+    background-color:#2457c5;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+    text-transform: capitalize;
+    transition:  background-color 0.5s ease;
+    &:hover {
+        background-color:#073496;
+    }
+    
+}
+.allcontainer .please p{
+    background-color: #303949;
+    color: #187044;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.allcontainer .buttoncount p{
+    color: white;
+    background-color: #303949;
+
+}
